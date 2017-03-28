@@ -1,5 +1,5 @@
 {
-  "name": "snowflake-sdk",
+  "name": "@stridespark/snowflake-sdk",
   "version": "1.1.1",
   "description": "Node.js driver for Snowflake",
   "dependencies": {
@@ -7,17 +7,17 @@
     "asn1.js-rfc2560": "4.0.0",
     "asn1.js-rfc3280": "4.0.0",
     "bignumber.js": "2.1.0",
-    "browser-request": "0.3.3",
-    "debug": "2.2.0",
-    "extend": "3.0.0",
+    "browser-request": "^0.3.3",
+    "debug": "^2.2.0",
+    "extend": "^3.0.0",
     "https-proxy-agent": "1.0.0",
-    "moment": "2.10.6",
-    "moment-timezone": "0.4.1",
-    "node-uuid": "1.4.7",
+    "moment": "^2.10.6",
+    "moment-timezone": "^0.5.11",
+    "node-uuid": "^1.4.7",
     "ocsp": "1.0.3",
-    "request": "2.64.0",
-    "simple-lru-cache": "0.0.2",
-    "winston": "2.1.1"
+    "request": "^2.64.0",
+    "simple-lru-cache": "^0.0.2",
+    "winston": "^2.1.1"
   },
   "devDependencies": {
     "async": "1.5.0",
