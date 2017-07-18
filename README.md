@@ -1,17 +1,13 @@
 # Node.js driver for Snowflake
 
-[![NPM](https://nodei.co/npm/@stridespark/snowflake-sdk.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/snowflake-sdk/)
-
-[![npm version](https://badge.fury.io/js/@stridespark/snowflake-sdk.svg)](https://badge.fury.io/js/snowflake-sdk)
-
-The official Node.js driver for Snowflake.
+A fork of the Node.js driver for Snowflake.
 
 ## Installing
 
 To install the driver, go to your project directory and type the following:
 
 ```sh
-npm install snowflake-sdk
+npm install @stridespark/snowflake-sdk
 ```
 
 ## Usage and Getting Started
