@@ -1,3 +1,12 @@
+.idea
+.travis.yml
 test/
 dist/
-gulpfile.js
+ignore/
+env/
+junit.xml
+snowflake-sdk*.tgz
+coverage
+system_test
+scripts
+parameters.json.enc

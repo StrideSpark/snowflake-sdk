@@ -1,6 +1,6 @@
 {
   "name": "@stridespark/snowflake-sdk",
-  "version": "1.1.6",
+  "version": "1.1.8",
   "description": "Node.js driver for Snowflake",
   "dependencies": {
     "agent-base": "^2.0.1",
@@ -13,10 +13,10 @@
     "https-proxy-agent": "^2.2.1",
     "moment": "^2.20.1",
     "moment-timezone": "^0.4.1",
-    "node-uuid": "^1.4.7",
     "ocsp": "^1.2.0",
     "request": "^2.83.0",
     "simple-lru-cache": "^0.0.2",
+    "uuid": "^3.3.2",
     "winston": "^2.1.1"
   },
   "devDependencies": {
@@ -30,10 +30,17 @@
     "vinyl-buffer": "1.0.0",
     "vinyl-source-stream": "1.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowflakedb/snowflake-connector-nodejs"
+  },
+  "scripts": {
+    "test": "./scripts/run_test.sh"
+  },
   "author": {
-    "name": "Snowflake Computing",
-    "email": "",
-    "url": "http://snowflake.net/"
+    "name": "Snowflake Computing, Inc.",
+    "email": "support@snowflake.com",
+    "url": "https://www.snowflake.com/"
   },
   "license": "Apache-2.0"
 }
